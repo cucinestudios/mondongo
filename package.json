@@ -1,0 +1,33 @@
+{
+  "name": "mondongo",
+  "version": "1.0.0",
+  "description": "A framework to make an easy and great restful api (based on express + mongo)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucinestudios/mondongo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cucinestudios/mondongo.git/issues"
+  },
+  "homepage": "https://github.com/cucinestudios/mondongo.git#README",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.4",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.4",
+    "path": "^0.12.7",
+    "simpledot": "^1.0.1"
+  }
+}
