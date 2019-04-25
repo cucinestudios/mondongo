@@ -48,7 +48,7 @@ const schema = new mongoose.Schema({
  */
 schema.methods.hashPassword = function hashPassword(password) {
   if (this.salt && password) {
-    return crypto.pbkdf2Sync(password, this.salt, 10000, 64).toString('base64');
+    return crypto.pbkdf2Sync(password, this.salt, 10000, 64, 'sha1').toString('base64');
   } else {
     return password;
   }
